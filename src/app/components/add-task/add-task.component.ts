@@ -33,6 +33,7 @@ export class AddTaskComponent implements OnInit {
     if (!this.text)
     {
       alert("Please add a task!");
+      return;
     }
 
     const newTask: Task = 
